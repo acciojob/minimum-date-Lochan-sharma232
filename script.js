@@ -1,5 +1,5 @@
 function minDate(dates) {
-  //write you code here
+ minDate(["2023/03/01","2023/03/02","2023,03,03"]) //write you code here
 }
 
 // Do not change the code
@@ -37,4 +37,4 @@ var dates = [
   "2023/03/30",
 ];
 
-alert(minDate(dates));
+//alert(minDate(dates));
