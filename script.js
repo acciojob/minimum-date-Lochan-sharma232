@@ -1,7 +1,9 @@
-function minDate(dates) {
- minDate(["2023/03/01","2023/03/02","2023,03,03"]) //write you code here
+function minDate(dates) {  //write you code here
+dates.sort((a,b)=>{
+	return a.localeCompare(b)
+})
+	return dates[0];
 }
-
 // Do not change the code
 
 var dates = [
@@ -37,4 +39,6 @@ var dates = [
   "2023/03/30",
 ];
 
-//alert(minDate(dates));
+alert(minDate(dates));
+
+	
